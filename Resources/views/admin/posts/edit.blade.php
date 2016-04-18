@@ -80,7 +80,7 @@
                 @include('media::admin.fields.file-link', [
                     'entityClass' => 'Modules\\\\Blog\\\\Entities\\\\Post',
                     'entityId' => $post->id,
-                    'zone' => 'thumbnail'
+                    'zone' => 'featured_image'
                 ])
             </div>
         </div>
